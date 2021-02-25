@@ -4,11 +4,9 @@
              x:Class="tarea3.Views.HomeMenuPage"
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
             ios:Page.UseSafeArea="true">
-    <ContentPage.Content>
         <ScrollView>
-            <Grid>
-               
+            <Grid Margin="20,35,70,20">
+
         </Grid>
         </ScrollView>
-    </ContentPage.Content>
 </ContentPage>
