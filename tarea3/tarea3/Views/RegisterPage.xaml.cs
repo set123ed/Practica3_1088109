@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using tarea3.ModelsViews;
 
 using Xamarin.Forms;
 
@@ -13,6 +14,8 @@ namespace tarea3.Views
         public RegisterPage()
         {
             InitializeComponent();
+            BindingContext = new MainViewModel();
+
         }
 
         async void Button_Clicked(System.Object sender, System.EventArgs e)

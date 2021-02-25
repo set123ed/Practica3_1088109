@@ -7,7 +7,7 @@
         <ScrollView>
     <StackLayout VerticalOptions="Center">
         <Image Source="intec" VerticalOptions="Center" HorizontalOptions="Center" />
-         <Entry Placeholder="Name" VerticalOptions="Center" x:Name="Name" />
+         <Entry Placeholder="Name" Text="{Binding nameEntry}" VerticalOptions="Center" x:Name="Name" />
         <Entry Placeholder="Email" VerticalOptions="Center" x:Name="Email" />
         <Entry Placeholder="Password" VerticalOptions="Center" IsPassword="True" x:Name="Password1"/>
          <Entry Placeholder="Comfirm Password" VerticalOptions="Center" IsPassword="True" x:Name="Password2"/>

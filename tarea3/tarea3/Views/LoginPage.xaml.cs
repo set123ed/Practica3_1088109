@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using tarea3.ModelsViews;
 
 using Xamarin.Forms;
 
@@ -10,6 +11,7 @@ namespace tarea3.Views
         public LoginPage()
         {
             InitializeComponent();
+            BindingContext = new MainViewModel();
         }
         async void RegisterButton(System.Object sender, System.EventArgs e)
         {
