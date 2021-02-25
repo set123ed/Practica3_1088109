@@ -7,8 +7,8 @@
     <ContentPage.Content>
         <ScrollView>
             <Grid>
-                <Frame BorderColor="Orange"/>
-            </Grid>
+               
+        </Grid>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>

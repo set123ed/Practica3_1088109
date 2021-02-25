@@ -5,8 +5,8 @@
             x:Class="tarea3.Views.HomeTabbedPage">
             
     <!--Pages can be added as references or inline-->
-    <local1:HomeMenuPage Title="Home" IconImageSource="homemenu"/>
-    <ContentPage Title="Discovery" IconImageSource="pin" />
+    <ContentPage Title="Home" IconImageSource="homemenu"/>
+    <local1:HomeMenuPage Title="Discovery" IconImageSource="pin" />
     <ContentPage Title="Bookmark" IconImageSource="bookmark" />
     <ContentPage Title="Top Foods" IconImageSource="trophie" />
     <ContentPage Title="Profile" IconImageSource="profile"/>
