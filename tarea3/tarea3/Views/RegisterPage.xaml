@@ -7,11 +7,11 @@
         <ScrollView>
     <StackLayout VerticalOptions="Center">
         <Image Source="intec" VerticalOptions="Center" HorizontalOptions="Center" />
-         <Entry Placeholder="Name" Text="{Binding nameEntry}" VerticalOptions="Center" x:Name="Name" />
-        <Entry Placeholder="Email" VerticalOptions="Center" x:Name="Email" />
-        <Entry Placeholder="Password" VerticalOptions="Center" IsPassword="True" x:Name="Password1"/>
-         <Entry Placeholder="Comfirm Password" VerticalOptions="Center" IsPassword="True" x:Name="Password2"/>
-        <Button Text="Register" TextColor="White" BackgroundColor="Red" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked" />
+         <Entry Placeholder="Name" Text="{Binding NameEntry}" VerticalOptions="Center"/>
+        <Entry Placeholder="Email" Text="{Binding EmailEntry}" VerticalOptions="Center"/>
+        <Entry Placeholder="Password" Text="{Binding PasswordEntry}" VerticalOptions="Center" IsPassword="True" />
+         <Entry Placeholder="Confirm Password" Text="{Binding PasswordConfirmEntry}" VerticalOptions="Center" IsPassword="True"/>
+        <Button Text="Sign Up" TextColor="White" BackgroundColor="Red" HorizontalOptions="FillAndExpand" Command="{Binding SignUpCommand}"/>
     </StackLayout>
         </ScrollView>
 </ContentPage>

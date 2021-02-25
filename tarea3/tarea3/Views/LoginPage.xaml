@@ -8,11 +8,10 @@
     <StackLayout VerticalOptions="Center">
         <Image Source="intec" VerticalOptions="Center" HorizontalOptions="Center"  />
         <Entry Placeholder="Email" VerticalOptions="Center" Text="{Binding emailEntry}"/>
-        <Entry Placeholder="Password" VerticalOptions="Center" IsPassword="True" x:Name="Password"/>
+        <Entry Placeholder="Password" VerticalOptions="Center" IsPassword="True" Text="{Binding passwordEntry}"/>
         <Button Text="Login" TextColor="White" BackgroundColor="Red" HorizontalOptions="FillAndExpand"
-                Clicked="LogginButton"/>
-        <Button Text="Sign up" TextColor="Red" Clicked="RegisterButton" />
-        <Label   x:Name="outputLabel"/>
+               Command="{Binding LogginCommand}" />
+        <Button Text="Sign up" TextColor="Red" Command="{Binding SignUpCommand}" />
     </StackLayout>
         </ScrollView>
 </ContentPage>

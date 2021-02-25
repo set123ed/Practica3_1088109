@@ -19,4 +19,21 @@
     <Folder Include="ModelsViews\" />
     <Folder Include="Views\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\MyTabbedPage.xaml.cs">
+      <DependentUpon>MyTabbedPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\RegisterPage.xaml.cs">
+      <DependentUpon>RegisterPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\HomeTabbedPage.xaml.cs">
+      <DependentUpon>HomeTabbedPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\HomeMenuPage.xaml.cs">
+      <DependentUpon>HomeMenuPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>

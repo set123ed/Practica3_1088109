@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local1="clr-namespace:tarea3.Views"
+            x:Class="tarea3.Views.HomeTabbedPage">
+            
+    <!--Pages can be added as references or inline-->
+    <local1:HomeMenuPage Title="Home" IconImageSource="homemenu"/>
+    <ContentPage Title="Discovery" IconImageSource="pin" />
+    <ContentPage Title="Bookmark" IconImageSource="bookmark" />
+    <ContentPage Title="Top Foods" IconImageSource="trophie" />
+    <ContentPage Title="Profile" IconImageSource="profile"/>
+</TabbedPage>

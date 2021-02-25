@@ -143,5 +143,10 @@
     <BundleResource Include="Resources\user%40x2.png" />
     <BundleResource Include="Resources\user%40x3.png" />
     <BundleResource Include="Resources\xslide-show.jpg.pagespeed.ic.FiDt8Bvt15.jpg" />
+    <BundleResource Include="Resources\bookmark.png" />
+    <BundleResource Include="Resources\homemenu.png" />
+    <BundleResource Include="Resources\pin.png" />
+    <BundleResource Include="Resources\profile.png" />
+    <BundleResource Include="Resources\trophie.png" />
   </ItemGroup>
 </Project>
