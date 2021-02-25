@@ -133,4 +133,15 @@
       <Name>tarea3</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\home1%40x2.png" />
+    <BundleResource Include="Resources\home2.png" />
+    <BundleResource Include="Resources\intec.png" />
+    <BundleResource Include="Resources\joseintec.jpg" />
+    <BundleResource Include="Resources\joseintec1.jpg" />
+    <BundleResource Include="Resources\user.png" />
+    <BundleResource Include="Resources\user%40x2.png" />
+    <BundleResource Include="Resources\user%40x3.png" />
+    <BundleResource Include="Resources\xslide-show.jpg.pagespeed.ic.FiDt8Bvt15.jpg" />
+  </ItemGroup>
 </Project>

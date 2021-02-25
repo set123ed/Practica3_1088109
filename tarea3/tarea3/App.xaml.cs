@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using tarea3.Views;
 
 namespace tarea3
 {
@@ -10,7 +11,7 @@ namespace tarea3
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage (new MyTabbedPage());
         }
 
         protected override void OnStart()

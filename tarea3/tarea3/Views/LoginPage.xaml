@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tarea3.Views.LoginPage"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+            ios:Page.UseSafeArea="true">
+    <ScrollView>
+    <StackLayout VerticalOptions="Center">
+        <Image Source="intec" VerticalOptions="Center" HorizontalOptions="Center"  />
+        <Entry Placeholder="Email" VerticalOptions="Center" x:Name="Email"/>
+        <Entry Placeholder="Password" VerticalOptions="Center" IsPassword="True" x:Name="Password"/>
+        <Button Text="Login" TextColor="White" BackgroundColor="Red" HorizontalOptions="FillAndExpand"
+                Clicked="LogginButton"/>
+        <Button Text="Sign up" TextColor="Red" Clicked="RegisterButton" />
+        <Label   x:Name="outputLabel"/>
+    </StackLayout>
+        </ScrollView>
+</ContentPage>
