@@ -11,7 +11,7 @@ namespace tarea3
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage (new MyTabbedPage());
+            MainPage = new NavigationPage (new LoginPage());
         }
 
         protected override void OnStart()

@@ -148,5 +148,11 @@
     <BundleResource Include="Resources\pin.png" />
     <BundleResource Include="Resources\profile.png" />
     <BundleResource Include="Resources\trophie.png" />
+    <BundleResource Include="Resources\beer.png" />
+    <BundleResource Include="Resources\burger.png" />
+    <BundleResource Include="Resources\dinner.png" />
+    <BundleResource Include="Resources\location.png" />
+    <BundleResource Include="Resources\pizza.png" />
+    <BundleResource Include="Resources\store.png" />
   </ItemGroup>
 </Project>

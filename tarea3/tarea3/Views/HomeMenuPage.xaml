@@ -4,13 +4,52 @@
              x:Class="tarea3.Views.HomeMenuPage"
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
             ios:Page.UseSafeArea="true">
-   
 
-    <ContentPage.Content>
         <ScrollView>
-            <Grid ColumnDefinitions="*,auto,*" RowDefinitions="*,*,*,*">
-                <Label Text="Discovery" Grid.Column="1"/>
-        </Grid>
+            <Grid BackgroundColor="WhiteSmoke"  >
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="170"></RowDefinition>
+                    <RowDefinition Height="170"></RowDefinition>
+                    <RowDefinition Height="170"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+               
+                 <Label Text="DISCOVERY" FontFamily="Open Sans" FontAttributes="Bold"
+                        BackgroundColor="White" Grid.Row="0" Grid.ColumnSpan="2"
+                        VerticalTextAlignment="Center"
+                        HorizontalTextAlignment="Center"/>
+
+                 <Button Text="{Binding BarAndHotelsMenuOption.Title}" ContentLayout="Top,15" ImageSource="{Binding BarAndHotelsMenuOption.Image}" Grid.Column="0" Grid.Row="1"
+                         BackgroundColor="White"  TextColor="Black" Margin="5" />
+
+                <Button Text="{Binding FineDinning.Title}" ContentLayout="Top,15" ImageSource="{Binding FineDinning.Image}"
+                        Grid.Column="1" Grid.Row="1" 
+                        TextColor="Black" BackgroundColor="White" Margin="5"/>
+
+                <Button Text="{Binding Cafes.Title}"  ContentLayout="Top,15" ImageSource="{Binding Cafes.Image}"
+                        Grid.Column="0" Grid.Row="2"  BackgroundColor="White"
+                         TextColor="Black" Margin="5" />
+
+                <Button Text="{Binding Nearby.Title}" ContentLayout="Top,15" ImageSource="{Binding Nearby.Image}"  Grid.Column="1"
+                        Grid.Row="2"  BackgroundColor="White" 
+                        TextColor="Black" Margin="5" />
+
+                <Button Text="{Binding FastFood.Title}" ContentLayout="Top,15" ImageSource="{Binding FastFood.Image}" Grid.Column="0"
+                        Grid.Row="3"  BackgroundColor="White" 
+                        TextColor="Black" Margin="5"  />
+
+                <Button Text="{Binding FeaturedFoods.Title}" ContentLayout="Top,15" ImageSource="{Binding FeaturedFoods.Image}"
+                        Grid.Column="1" Grid.Row="3"  BackgroundColor="White"
+                        TextColor="Black" Margin="5" />
+
+            </Grid>
+            
         </ScrollView>
-    </ContentPage.Content>
 </ContentPage>
+
+                
+             
