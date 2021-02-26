@@ -9,4 +9,3 @@ Practica #3 -  Rafael Melo 1088109
 <img width="266" alt="Captura de Pantalla 2021-02-26 a la(s) 5 12 04 p  m" src="https://user-images.githubusercontent.com/49174284/109366959-27d47180-786b-11eb-913a-1cbd184f4d89.png">
 <img width="260" alt="Captura de Pantalla 2021-02-26 a la(s) 5 12 29 p  m" src="https://user-images.githubusercontent.com/49174284/109366961-27d47180-786b-11eb-9b27-f333b174d674.png">
 <img width="268" alt="Captura de Pantalla 2021-02-26 a la(s) 5 12 36 p  m" src="https://user-images.githubusercontent.com/49174284/109366962-286d0800-786b-11eb-9381-bf695d9547f2.png">
-
