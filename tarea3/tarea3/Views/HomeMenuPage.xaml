@@ -45,9 +45,7 @@
                 <Button Text="{Binding FeaturedFoods.Title}" ContentLayout="Top,15" ImageSource="{Binding FeaturedFoods.Image}"
                         Grid.Column="1" Grid.Row="3"  BackgroundColor="White"
                         TextColor="Black" Margin="5" />
-
             </Grid>
-            
         </ScrollView>
 </ContentPage>
 

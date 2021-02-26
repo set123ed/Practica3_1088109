@@ -7,8 +7,8 @@ namespace tarea3.ModelsViews
     public class MainViewModel
     {
         //Login
-        public string emailEntry { get; set; }
-        public string passwordEntry { get; set; }
+        public string EmailEntry { get; set; }
+        public string PasswordEntry { get; set; }
         public ICommand LogginCommand { get; }
         public ICommand SignUpCommand { get; }
         public MainViewModel()
@@ -18,13 +18,13 @@ namespace tarea3.ModelsViews
         }
         private async void OnLogin()
         {
-                if(string.IsNullOrEmpty(emailEntry)||string.IsNullOrEmpty(passwordEntry))
+                if(string.IsNullOrEmpty(EmailEntry)||string.IsNullOrEmpty(PasswordEntry))
             {
                 await App.Current.MainPage.DisplayAlert("Login Failed", "Please fill all fields", "ok");
             }
             else
             {
-                await App.Current.MainPage.DisplayAlert("Welcome", emailEntry, "ok");
+                await App.Current.MainPage.DisplayAlert("Welcome", EmailEntry, "ok");
                 await Application.Current.MainPage.Navigation.PushAsync(new HomeTabbedPage());
             }
         }
